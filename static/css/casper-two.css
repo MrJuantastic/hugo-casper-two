@@ -45,7 +45,7 @@
 }
 
 .nav-current a:visited {
-    color: #ff7034;
+    color: white;
 }
 
 @media (min-width: 900px) {
