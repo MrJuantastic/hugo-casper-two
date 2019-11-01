@@ -1,7 +1,7 @@
 <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:title" content="{{ if ne .URL "/" }}{{ .Title }} &middot; {{ end }}{{ .Site.Params.Title }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    {{if .Site.Params.fbName}}<meta property="article:publisher" content="https://www.facebook.com/{{.Site.Params.fbName}}" />{{end}}
+    {{if .Site.Params.igName}}<meta property="article:publisher" content="https://www.instagram.com/{{.Site.Params.igName}}" />{{end}}
 {{ if .IsPage }}
     <meta property="og:type" content="article" />
     <meta property="og:description" content="{{ .Description  | default (substr .Summary 0 160) }}" />
