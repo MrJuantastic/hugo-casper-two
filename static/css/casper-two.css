@@ -45,7 +45,7 @@
 }
 
 .nav-current a:visited {
-    color: rgba(228, 112, 3, 0.479);
+    color: whitesmoke;
 }
 
 @media (min-width: 900px) {
