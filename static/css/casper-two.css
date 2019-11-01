@@ -40,8 +40,12 @@
     padding-bottom: 20px !important;
 }
 
+.nav {
+    font-size: 16px;
+}
+
 .nav-current a:visited {
-    color: yellow;
+    color: #ff7034;
 }
 
 @media (min-width: 900px) {
