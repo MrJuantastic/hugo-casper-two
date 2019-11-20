@@ -34,7 +34,7 @@
     </nav>  
 
     <div class="site-header-content">
-        <h1 class="site-title">{{.Title | title}}</h1>
+        <h1 class="site-title">{{if eq .Title "Categories"}}Portfolio{{else}}{{.Title | title}}{{end}}</h1>
 
         <h2 class="site-description">&#x2F;&nbsp;
           {{ $data := .Data }}

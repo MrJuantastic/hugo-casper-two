@@ -34,7 +34,7 @@
     </nav>  
 
     <div class="site-header-content">
-        <h1 class="site-title">{{.Title}}</h1>{{$.Scratch.Set "total" (len .Data.Pages)}}
+        <h1 class="site-title">{{if eq .Data.Singular "tag"}}#{{else if eq .Data.Singular "category"}}Category: {{end}}{{.Title}}</h1>{{$.Scratch.Set "total" (len .Data.Pages)}}
         <h2 class="site-description">
                 {{if ge ($.Scratch.Get "total") 2 }}A collection of {{$.Scratch.Get "total"}} posts
                 {{else}}{{$.Scratch.Get "total"}} post{{end}}
