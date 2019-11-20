@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.section-form {
+  border-left: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section-form input {
+  font-size: 1.75rem;
+}
+
+.section-form textarea {
+  font-size: 1.75rem;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.75rem;
+}
+
+.kg-card-markdown {
+  max-width: 100%;
+}
+
+.post-full-content {
+  padding: 0;
+}
